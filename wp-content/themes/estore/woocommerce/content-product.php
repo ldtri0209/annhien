@@ -73,13 +73,13 @@ switch ($attributes['nha-mang']['value']) {
 }
 ?>
 <tr <?php post_class( $classes ); ?>>
-	<td class="stt"><?php echo $i ?></td>
+	<td class="hidden-moble stt"><?php echo $i ?></td>
 	<td><?php echo '<h3 class="products-title"><a>' . esc_html(get_the_title()) . '</a></h3>';?></td>
 	<td class="price">
 		<span class=""><span class="price"><?php esc_html_e( 'Giá: ', 'estore' ); ?><?php echo $product->get_price_html(); ?></span>
 	</td>
-	<td class="<?php echo $class?>"></td>
-	<td>
+	<td class="hidden-moble <?php echo $class?>"></td>
+	<td style="width: 125px">
         <div class="products-hover-wrapper">
             <div class="products-hover-block">
                 <?php woocommerce_template_loop_add_to_cart( $product->post, $product ); ?>

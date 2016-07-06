@@ -18,7 +18,7 @@
 	<div id="content" class="site-content">
 		<div class="page-header clearfix">
 			<div class="tg-container">
-                <?php echo do_shortcode( '[metaslider id=112]' );?>
+                <?php //echo do_shortcode( '[metaslider id=112]' );?>
 				<?php
 				the_archive_title('<h2 class="entry-title">', '</h2>');
 				the_archive_description('<div class="taxonomy-description">', '</div>');

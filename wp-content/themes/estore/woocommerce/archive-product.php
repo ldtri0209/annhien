@@ -22,7 +22,7 @@ get_header( 'shop' );
 
 	<div class="page-header clearfix">
 		<div class="tg-container">
-            <?php echo do_shortcode( '[metaslider id=112]' );?>
+            <?php //echo do_shortcode( '[metaslider id=112]' );?>
 			<?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
 
 				<h1 class="entry-title"><?php woocommerce_page_title(); ?></h1>
@@ -35,7 +35,7 @@ get_header( 'shop' );
 				 * @hooked woocommerce_taxonomy_archive_description - 10
 				 * @hooked woocommerce_product_archive_description - 10
 				 */
-				do_action( 'woocommerce_archive_description' );
+				do_action( 'woocommerce_archive_description' ); 
 			?>
 <!--			<h3 class="entry-sub-title">--><?php //woocommerce_breadcrumb(); ?><!--</h3>-->
 		</div>
@@ -43,6 +43,12 @@ get_header( 'shop' );
 
 	<main id="main" class="clearfix <?php echo esc_attr($estore_layout); ?>">
 		<div class="tg-container">
+			<aside id="secondary-categories" class="widget-area" role="complementary">
+				<?php echo do_shortcode( '[widget id="woocommerce_product_categories-3"]' );?>
+				<?php echo do_shortcode( '[widget id="tag_cloud-2"]' );?>	
+			</aside>
+		
+		<?php //estore_sidebar_select(); ?>
 		<?php
 		/**
 		 * woocommerce_before_main_content hook

@@ -20,4 +20,4 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 ?>
-<p class="woocommerce-info"><?php _e( 'Không có sản phẩm được tìm thấy phù hợp với lựa chọn của bạn.', 'woocommerce' ); ?></p>
+<p class="woocommerce-info"><?php _e( 'Đang cập nhật số.', 'woocommerce' ); ?></p>

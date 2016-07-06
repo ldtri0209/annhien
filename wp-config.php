@@ -21,18 +21,19 @@
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
 define('WP_CACHE', true); //Added by WP-Cache Manager
-define( 'WPCACHEHOME', 'D:\MYPROJECT\AnNhien\source\wp-content\plugins\wp-super-cache/' ); //Added by WP-Cache Manager
-define('DB_NAME', 'new_annhien');
-define('WP_HOME','http://annhien.me');
-define('WP_SITEURL','http://annhien.me');
+define( 'WPCACHEHOME', '/home/khoafd5b/public_html/wp-content/plugins/wp-super-cache/' ); //Added by WP-Cache Manager
+define('WP_HOME','http://khosimsodepgiare.com');
+define('WP_SITEURL','http://khosimsodepgiare.com');
+
+define('DB_NAME', 'khoafd5b_db');
 /** MySQL database username */
-define('DB_USER', 'root');
+define('DB_USER', 'khoafd5b_admin');
 
 /** MySQL database password */
-define('DB_PASSWORD', '');
+define('DB_PASSWORD', 'P@ss2016');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'db05.serverhosting.vn');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8mb4');

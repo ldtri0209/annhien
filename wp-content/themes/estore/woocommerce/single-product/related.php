@@ -47,7 +47,7 @@ if ( $products->have_posts() ) : ?>
 
 	<div class="related products">
 
-		<h2 class="widget-title"><span><?php esc_html_e( 'Related Products', 'estore' ); ?></span></h2>
+		<h2 class="widget-title"><span><?php esc_html_e( 'Các số có thể bạn quan tâm', 'estore' ); ?></span></h2>
 
 		<?php woocommerce_product_loop_start(); ?>
 

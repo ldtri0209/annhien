@@ -7,7 +7,7 @@ Author URI:        http://profiles.wordpress.org/flippercode/
 Author:            flippercode
 Donate link:       (a link for donating)
 Requires at least: 2.0.0 
-Tested up to:      4.4.2
+Tested up to:      4.5
 Stable tag:        Display Google Maps in Pages, Posts, Sidebar or Custom Templates. It’s Responsive, Multi-Lingual and Multi-Site Supported. 
 
 == Description ==
@@ -174,6 +174,9 @@ This section describes how to install the plugin and get it working.
 
 
 == Changelog ==
+
+Version 3.1.1
+* Fix - Access level to WP_List_Table_Helper::pagination() must be public.
 
 Version 3.1
 * New - resize_map() function is added to correct the grey map in tabs issue.

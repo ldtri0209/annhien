@@ -60,7 +60,7 @@ get_header(); ?>
 
 					<?php endif; ?>
 				</div> <!-- Primary end -->
-				<?php estore_sidebar_select(); ?>
+				<?php //estore_sidebar_select(); ?>
 			</div>
 		</main>
 	</div><!-- #content .site-content -->

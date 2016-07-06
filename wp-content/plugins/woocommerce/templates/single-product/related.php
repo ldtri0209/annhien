@@ -47,7 +47,7 @@ if ( $products->have_posts() ) : ?>
 
 	<div class="related products">
 
-		<h2><?php _e( 'Related Products', 'woocommerce' ); ?></h2>
+		<h3><?php _e( 'Sản phẩm liên quan', 'woocommerce' ); ?></h3>
 
 		<?php woocommerce_product_loop_start(); ?>
 

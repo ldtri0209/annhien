@@ -23,13 +23,17 @@ get_header(); ?>
 	<div id="content" class=" site-content"><!-- #content.site-content -->
 		<div class="page-header clearfix">
 			<div class="tg-container">
-				<?php echo do_shortcode( '[metaslider id=112]' );?>
+				<?php //echo do_shortcode( '[metaslider id=112]' );?>
 				<?php the_title('<h2 class="entry-title">', '</h2>'); ?>
 <!--				<h3 class="entry-sub-title">--><?php //estore_breadcrumbs(); ?><!--</h3>-->
 			</div>
 		</div>
 		<main id="main" class="clearfix <?php echo esc_attr($estore_layout); ?>">
 			<div class="tg-container">
+			<aside id="secondary-categories" class="widget-area" role="complementary">
+				<?php echo do_shortcode( '[widget id="woocommerce_product_categories-3"]' );?>
+				<?php echo do_shortcode( '[widget id="tag_cloud-2"]' );?>	
+			</aside>
 				<div id="primary">
 					<?php while ( have_posts() ) : the_post(); ?>
 

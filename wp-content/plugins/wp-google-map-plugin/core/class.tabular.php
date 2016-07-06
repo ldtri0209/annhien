@@ -592,7 +592,7 @@ $this->display();
 	 * display Pagination
 	 * @param  string $which Top or Bottom.
 	 */
-	protected function pagination( $which ) {
+	public function pagination( $which ) {
 
 		if ( empty( $this->_pagination_args ) ) {
 			return;

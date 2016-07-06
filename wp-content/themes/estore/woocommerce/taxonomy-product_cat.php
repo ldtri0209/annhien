@@ -25,7 +25,7 @@ $cat_ID      = $categoryobj->term_id;
 
 	<div class="page-header clearfix">
 		<div class="tg-container">
-			<?php echo do_shortcode( '[metaslider id=112]' );?>
+			<?php //echo do_shortcode( '[metaslider id=112]' );?>
 			<?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
 
 				<h1 class="entry-title"><?php woocommerce_page_title(); ?></h1>
@@ -46,6 +46,10 @@ $cat_ID      = $categoryobj->term_id;
 
 	<main id="main" class="clearfix <?php echo esc_attr($estore_layout); ?>">
 		<div class="tg-container">
+			<aside id="secondary-categories" class="widget-area" role="complementary">
+				<?php echo do_shortcode( '[widget id="woocommerce_product_categories-3"]' );?>
+				<?php echo do_shortcode( '[widget id="tag_cloud-2"]' );?>	
+			</aside>
 		<?php
 		/**
 		 * woocommerce_before_main_content hook

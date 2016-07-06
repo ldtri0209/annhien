@@ -1,0 +1,6 @@
+[27-Jun-2016 13:52:07 Asia/Bangkok] PHP Fatal error:  Call to undefined function add_action() in /home/khoafd5b/public_html/wp-content/plugins/contact-form-7/includes/upgrade.php on line 3
+[27-Jun-2016 13:52:10 Asia/Bangkok] PHP Fatal error:  Call to undefined function add_filter() in /home/khoafd5b/public_html/wp-content/plugins/contact-form-7/includes/capabilities.php on line 3
+[27-Jun-2016 13:52:15 Asia/Bangkok] PHP Fatal error:  Call to undefined function add_action() in /home/khoafd5b/public_html/wp-content/plugins/contact-form-7/includes/mail.php on line 171
+[27-Jun-2016 13:52:17 Asia/Bangkok] PHP Fatal error:  Call to undefined function add_action() in /home/khoafd5b/public_html/wp-content/plugins/contact-form-7/includes/controller.php on line 3
+[30-Jun-2016 15:25:31 Asia/Bangkok] PHP Fatal error:  Call to undefined function add_action() in /home/khoafd5b/public_html/wp-content/plugins/contact-form-7/includes/upgrade.php on line 3
+[30-Jun-2016 15:25:35 Asia/Bangkok] PHP Fatal error:  Call to undefined function add_action() in /home/khoafd5b/public_html/wp-content/plugins/contact-form-7/includes/mail.php on line 171

@@ -1266,7 +1266,7 @@ body {
 
 #primary {
     float: left;
-    width: 72.5%;
+    width: 47.5%;
 }
 
 #primary article {
@@ -1570,7 +1570,7 @@ body {
 .widget-large-advertise,
 .wishlist-cart-wrapper {
     float: right;
-    margin: 0;
+    margin: 14px 0;
     padding: 0;
 }
 
@@ -4879,6 +4879,41 @@ article .entry-content {
 }
 
 .stt, .price {
-    font-size: 15px;
+    font-size: 13px;
     font-weight: bold;
+}
+
+#secondary .textwidget p {
+	    font-size: 18px;
+    color: #000000;
+    font-weight: bold;
+    text-align: center;
+}
+
+#secondary section:first-child {
+	margin: 0;
+}
+
+.products-title {
+	font-size: 15px !important;
+}
+
+#table-product th,
+#table-product td {
+	text-align: center;
+}
+
+#woocommerce_product_categories-3 .widgettitle,
+#tag_cloud-2 .widgettitle {
+        border-bottom: 1px solid #d6d6d6;
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+#secondary-categories {
+        float: left;
+    width: 25%;
+    margin-right: 15px;
 }

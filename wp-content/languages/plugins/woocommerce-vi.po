@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Stable (latest release) package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2016-04-25 20:58:54+0000\n"
+"PO-Revision-Date: 2016-05-06 02:01:06+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10,9 +10,59 @@ msgstr ""
 "X-Generator: GlotPress/2.1.0-alpha\n"
 "Project-Id-Version: Stable (latest release)\n"
 
+#: includes/class-wc-frontend-scripts.php:345
+msgid "Please enter a stronger password."
+msgstr "Vui lòng nhập mật khẩu mạnh hơn."
+
+#: includes/class-wc-frontend-scripts.php:346
+msgid "The password should be at least seven characters long. To make it stronger, use upper and lower case letters, numbers and symbols like ! \" ? $ % ^ &amp; )."
+msgstr "Mật khẩu nên có ít nhất 7 ký tự. Sử dụng kết hợp các ký tự viết hoa, viết thường, số và biểu tượng như ! \"? $ % ^ &amp;). để tạo mật khẩu mạnh hơn. "
+
+#: includes/abstracts/abstract-wc-order.php:2539
+#: includes/class-wc-ajax.php:1370
+msgid "Item %s stock reduced from %s to %s."
+msgstr "Số lượng sản phẩm %s giảm từ %s xuống %s"
+
+#: includes/admin/class-wc-admin-setup-wizard.php:751
+msgid "Want to help make WooCommerce even more awesome? Allow WooThemes to collect non-sensitive diagnostic data and usage information. %sFind out more%s."
+msgstr "Bạn muốn giúp WooCommerce tuyệt vời hơn nữa? Hãy cho phép WooThemes thu nhập những dữ liệu không nhạy cảm và thông tin về các sử dụng. %sTìm hiểu thêm%s"
+
+#: includes/emails/class-wc-email-cancelled-order.php:28
+msgid "Cancelled order emails are sent to chosen recipient(s) when orders have been marked cancelled (if they were previously processing or on-hold)."
+msgstr "Khi các đơn hàng (ở trạng thái đang xử lý hoặc treo) được đánh dấu huỷ thì email huỷ đơn hàng sẽ được gửi tới người nhận đã được lựa chọn.  "
+
+#: includes/gateways/paypal/includes/class-wc-gateway-paypal-ipn-handler.php:257
+msgid "Payment for order %s refunded"
+msgstr "Thanh toán cho order %s đã được hoàn lại. "
+
+#: templates/cart/cart-shipping.php:47
+msgid "Shipping costs will be calculated once you have provided your address."
+msgstr "Chi phí vận chuyển sẽ được tính ngay khi bạn nhập thông tin địa chỉ."
+
+#: templates/emails/admin-failed-order.php:27
+#: templates/emails/plain/admin-failed-order.php:24
+msgid "Payment for order #%d from %s has failed. The order was as follows:"
+msgstr "Thanh toán cho đơn hàng #%d từ %s không thành công. Đơn hàng bao gồm như sau: "
+
 #: templates/single-product/add-to-cart/variable.php:42
 msgid "Clear"
 msgstr "Xóa"
+
+#: includes/wc-order-functions.php:55
+msgid "wc_get_order should not be called before the woocommerce_init action."
+msgstr "Không nên gọi wc_get_order trước woocommerce_init_action. "
+
+#: includes/wc-product-functions.php:26
+msgid "wc_get_product should not be called before the woocommerce_init action."
+msgstr "Không nên gọi wc_get_product trước woocommerce_init_action."
+
+#: includes/widgets/class-wc-widget-product-categories.php:78
+msgid "Hide empty categories"
+msgstr "Ẩn những danh mục trống"
+
+#: includes/class-wc-countries.php:781
+msgid "State / Zone"
+msgstr "Bang/Vùng"
 
 #: includes/admin/settings/views/html-settings-tax.php:122
 msgid "Last page"
@@ -34,9 +84,13 @@ msgstr "Trang Tĩnh Đầu Tiên"
 msgid "Previous page"
 msgstr "Trang trước"
 
+#: includes/admin/settings/views/html-settings-tax.php:8
+msgid "Search&hellip;"
+msgstr "Đang tải&hellip"
+
 #: includes/admin/settings/views/html-settings-tax.php:42
 msgid "Loading&hellip;"
-msgstr "Đang tải 26%"
+msgstr "Đang tải&hellip;"
 
 #: includes/admin/settings/class-wc-settings-emails.php:267
 msgid "Manual"
@@ -53,6 +107,12 @@ msgstr "Footer Text"
 #: includes/admin/settings/class-wc-settings-checkout.php:302
 msgid "(no title)"
 msgstr "(không có tiêu đề)"
+
+#: includes/admin/class-wc-admin-help.php:208
+#: includes/admin/class-wc-admin-help.php:210
+#: includes/admin/class-wc-admin-help.php:212
+msgid "Setup Wizard"
+msgstr "Cài đặt từng bước. "
 
 #: i18n/states/MY.php:28
 msgid "Kuala Lumpur"
@@ -3584,7 +3644,7 @@ msgstr "Rất tiếc, sản phẩm này hiện không tồn tại. Hãy chọn m
 #: includes/class-wc-install.php:237
 msgctxt "Page slug"
 msgid "shop"
-msgstr "mua"
+msgstr "cua-hang"
 
 #: includes/class-wc-install.php:242
 msgctxt "Page slug"

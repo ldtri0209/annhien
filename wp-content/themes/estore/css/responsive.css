@@ -146,6 +146,9 @@
  }
 
  @media (max-width: 768px) {
+    .hidden-moble {
+        display: none !important;
+    }
      #masthead .widget_shopping_cart {
          display: none;
      }
@@ -361,7 +364,8 @@
          width: 80%;
      }
      #primary,
-     #secondary {
+     #secondary,
+     #secondary-categories {
          float: none;
          width: 100%;
      }

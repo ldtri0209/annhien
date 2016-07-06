@@ -3,7 +3,7 @@
  * Wpgmp_Google_Map_Lite class file.
  * @package Maps
  * @author Flipper Code <hello@flippercode.com>
- * @version 3.1
+ * @version 3.1.1
  */
 
 /*
@@ -12,8 +12,8 @@ Plugin URI: http://www.flippercode.com/
 Description: Display Google Maps in Pages, Posts, Sidebar or Custom Templates. Unlimited maps, locations and categories supported. It’s Responsive, Multi-Lingual and Multi-Site Supported.
 Author: flippercode
 Author URI: http://www.flippercode.com/
-Version: 3.1
-Text Domain: wpgmp_google_map
+Version: 3.1.1
+Text Domain: wp-google-map-plugin
 Domain Path: /lang/
 */
 
@@ -586,7 +586,7 @@ if ( ! class_exists( 'Wpgmp_Google_Map_Lite' ) ) {
 			}
 
 			if ( ! defined( 'WPGMP_VERSION' ) ) {
-				define( 'WPGMP_VERSION', '3.0.9' );
+				define( 'WPGMP_VERSION', '3.1.1' );
 			}
 
 			if ( ! defined( 'WPGMP_TEXT_DOMAIN' ) ) {

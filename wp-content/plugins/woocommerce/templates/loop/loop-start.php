@@ -42,10 +42,10 @@
     <table id="table-product">
         <thead>
             <tr role="row">
-                <th class="col-md-2">STT</th>
-                <th class="col-md-2">Số Điện Thoại</th>
+                <th class="hidden-moble col-md-2">STT</th>
+                <th class="col-md-2">SĐT</th>
                 <th class="col-md-2">Giá</th>
-                <th class="col-md-2">Nhà Mạng</th>
+                <th class="hidden-moble col-md-2">Nhà Mạng</th>
                 <th class="col-md-2">Đặt Mua</th>
             </tr>
         </thead>

@@ -39,18 +39,19 @@
 							//$header_bar_text = get_theme_mod( 'estore_bar_text' );
 							//echo wp_kses_post($header_bar_text);
 							?>
-							<i class="fa fa-envelope"></i> ngancao@gmail.com
+							<i class="fa fa-envelope"></i> <a style="color: #ffffff;font-size: 13px;" href="caohuyenngan91@gmail.com"> caohuyenngan91@gmail.com</a>
 
 							&nbsp;&nbsp;&nbsp;
 
-							<i class="fa fa-phone"></i> +84 9866 23591
+							<i class="fa fa-phone"></i> +84 917 577 599
+
+							&nbsp;&nbsp;&nbsp;
+
+							<i class="fa fa-phone"></i> +84 919 672 679
 
 							&nbsp;&nbsp;&nbsp;
 
 							<i class="fa fa-map-marker"></i> 35 Phan Huy Ích, Hồ Chí Minh
-							&nbsp;&nbsp;&nbsp;
-
-							<i class="fa fa-clock-o"></i> Thời Gian Làm Việc: 07:00-18:00
 						</div> <!-- header-ticker end-->
 					</div> <!-- left-top-header end -->
 
